@@ -17,7 +17,9 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        imageView.image = UIImage(named: trackName)
+        trackNameLabel.text = trackName
+        trackNameLabel.numberOfLines = 0
     }
     
 
