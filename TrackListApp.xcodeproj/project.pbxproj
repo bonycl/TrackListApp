@@ -13,6 +13,7 @@
 		026D37622B0B0DDF005A8800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026D37612B0B0DDF005A8800 /* Assets.xcassets */; };
 		026D37652B0B0DDF005A8800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026D37632B0B0DDF005A8800 /* LaunchScreen.storyboard */; };
 		026D376D2B0B2313005A8800 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D376C2B0B2313005A8800 /* TrackListViewController.swift */; };
+		026D376F2B0B52D3005A8800 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D376E2B0B52D3005A8800 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		026D37642B0B0DDF005A8800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		026D37662B0B0DDF005A8800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		026D376C2B0B2313005A8800 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		026D376E2B0B52D3005A8800 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				026D37582B0B0DDD005A8800 /* AppDelegate.swift */,
 				026D375A2B0B0DDD005A8800 /* SceneDelegate.swift */,
 				026D376C2B0B2313005A8800 /* TrackListViewController.swift */,
+				026D376E2B0B52D3005A8800 /* DetailViewController.swift */,
 				026D375E2B0B0DDD005A8800 /* Main.storyboard */,
 				026D37612B0B0DDF005A8800 /* Assets.xcassets */,
 				026D37632B0B0DDF005A8800 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				026D37592B0B0DDD005A8800 /* AppDelegate.swift in Sources */,
 				026D375B2B0B0DDD005A8800 /* SceneDelegate.swift in Sources */,
 				026D376D2B0B2313005A8800 /* TrackListViewController.swift in Sources */,
+				026D376F2B0B52D3005A8800 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
