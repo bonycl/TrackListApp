@@ -22,6 +22,11 @@ class TrackListViewController: UITableViewController {
         "Veerus, Maxie Devine - Nightmare (Original Mix)"
     ]
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        navigationItem.leftBarButtonItem = editButtonItem
+    }
+    
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -62,6 +67,15 @@ class TrackListViewController: UITableViewController {
 //        return 60
 //    }
     
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .none
+    }
+    
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let currentTrack = trackList.remove(at: sourceIndexPath.row)
+        trackList.insert(currentTrack, at: destinationIndexPath.row)
+        tableView.reloadData()
+    }
 
     // MARK: - Navigation
     
@@ -74,4 +88,5 @@ class TrackListViewController: UITableViewController {
             
         }
     }
+    
 }
